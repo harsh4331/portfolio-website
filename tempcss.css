@@ -6,23 +6,15 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #333;
     color: white;
-    padding: 1rem 20px;
-}
-
-header {
-    overflow-x: hidden;
-}
-
-header {
-    padding: 1rem 0; /* Remove horizontal padding */
+    padding: 1rem 0; /* Use vertical padding only */
+    width: 100%; /* Ensure full width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 
