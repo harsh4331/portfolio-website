@@ -5,15 +5,8 @@ body {
     background-color: #f4f4f4;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-body {
-    overflow-x: hidden;
-}
 
-* {
-    box-sizing: border-box; /* Include padding and border in element's total width */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default paddings */
-}
+
 
 header {
     display: flex;
