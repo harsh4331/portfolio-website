@@ -17,6 +17,15 @@ header {
     padding: 1rem 20px;
 }
 
+header {
+    overflow-x: hidden;
+}
+
+header {
+    padding: 1rem 0; /* Remove horizontal padding */
+}
+
+
 nav {
     margin-left: 40px;
 }
