@@ -1,0 +1,20 @@
+.education-container {
+    display: flex;
+    justify-content: space-between; /* Aligns items side by side */
+    flex-wrap: wrap; /* Wraps items if they don't fit in one row */
+}
+
+.education-item {
+    background-color: #f4f4f4; /* Light gray background */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 10px; /* Spacing between boxes */
+    flex: 1; /* Allow items to grow equally */
+    min-width: 300px; /* Minimum width for boxes */
+}
+
+.institute-logo {
+    max-width: 100px; /* Adjust the size of the logo */
+    margin-bottom: 10px; /* Space between logo and text */
+}
