@@ -9,6 +9,12 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -132,6 +138,11 @@ footer {
     width: 100%;
     position: relative; /* Ensure it stays at the bottom */
     bottom: 0; /* Stick to bottom */
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 main {
