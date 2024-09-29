@@ -5,6 +5,9 @@ body {
     background-color: #f4f4f4;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+body {
+    overflow-x: hidden;
+}
 
 header {
     display: flex;
