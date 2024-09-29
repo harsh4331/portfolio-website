@@ -156,6 +156,16 @@ h3, a {
     color: #ffffff;
 }
 
+.project-title {
+    margin-bottom: 20px; /* Space below the project title */
+    margin-top: 30px;
+}
+
+.project-space {
+    margin-top: 40px; /* Space between the two projects */
+}
+
+
 .project p {
     color: #cfe0ed;
     line-height: 1.6;
